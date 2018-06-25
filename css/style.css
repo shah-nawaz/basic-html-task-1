@@ -1,0 +1,90 @@
+  @font-face{
+      font-family: asap-bd;
+      src: url("../fonts/Asap-Bold.otf") format("opentype");
+  }
+
+  @font-face{
+    font-family: asap-md;
+    src: url("../fonts/Asap-Medium.otf") format("opentype");
+}
+
+@font-face{
+    font-family: asap-rg;
+    src: url("../fonts/Asap-Regular.otf") format("opentype");
+}
+
+    body{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: row;
+    }
+
+  .container{
+    align-self: center;
+    background-color: #d6b696;
+    padding: 5% 8% 5% 5%;
+    align-items: center;
+  }
+
+  .form-card{
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    padding: 1.8em;
+    border-left-width: 4px;
+    border-left-color: #eece77;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-style: solid;
+    box-shadow: 1px 1px 25px 1px #7c7c7c;
+    flex-flow: row nowrap;
+  }
+
+  .field{
+      padding: 0.5em;
+      border: none;
+      border: 1px solid #ecded2;
+      border-radius: 5px;
+      color: #7f7f7f;
+      width: 60%;
+      flex: 1;
+      flex-basis: 60%;
+  }
+
+  .submit{
+      background-color: #ed6648;
+      color: #ffffff;
+      padding: 0.5em 1em 0.5em 1em;
+      font-family: asap-rg;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      width: 40%;
+      margin: 0 0.4em 0 0.4em;
+      flex: 1;
+      flex-basis: 40%;
+  }
+
+  .field::-webkit-input-placeholder {
+    font-family: asap-rg, Arial;
+    font-size: 0.8em;
+    color: #ecded2;
+  }
+  
+  .field:-ms-input-placeholder {
+    font-family: asap-rg, Arial;
+    font-size: 0.8em;
+    color: #ecded2;
+  }
+  
+  .field:-moz-placeholder {
+    font-family: asap-rg, Arial;
+    font-size: 0.8em;
+    color: #ecded2;
+  }
+  
+  .field::-moz-placeholder {
+    font-family: asap-rg, Arial;
+    font-size: 0.8em;
+    color: #ecded2;
+  }
